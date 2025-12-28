@@ -126,7 +126,6 @@ extern PROJECTMODULE(GameStart)
 		MessageBox(project->hwnd, 
 			L"Moon Hexagon Attack Engine是我[xsq1234]设计的一款带编辑器的游戏\n"
 			 "为什么加了Engine这个后缀呢, 因为这最初只是我在MoonEngine上拿来练手的作品\n"
-			 "主要是为了拍视频做战报和当成大学里的毕业作品而不是模拟游玩\n"
 			 "即在MoonEngine这个引擎的通用框架上再写一款特定方向的游戏\n所以在其中您可以看见编辑器和自定义MOD\n"
 			 "之后呢我觉得还不够所以添加了战斗和移动系统以及回合流程\n就变成了如今可以自定义也可以玩的游戏\n"
 			 "                                                                                                             祝您玩得愉快\n"
@@ -167,7 +166,7 @@ extern PROJECTSETTING(ReturnGameStart)
 	ProjectFunctionSwitch(&project->Logic, LogicNULL);
 }
 //Easter egg
-// 12.12 I broke up with the girlfriend in my heart.
+// 12.12 
 // Chinese version
 //或许，我曾与你相遇
 //但此刻
@@ -181,4 +180,5 @@ extern PROJECTSETTING(ReturnGameStart)
 //My heart is calm as still water.
 //Forgive my wavering ways,
 //For
+
 //There was never a possibility between us.
