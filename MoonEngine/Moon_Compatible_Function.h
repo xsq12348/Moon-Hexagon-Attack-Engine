@@ -1,0 +1,44 @@
+#pragma once
+#include"Moon_Configuration.h"
+//Compatible Moon Engine 1.1.9.1
+#define Hash MoonHash
+#define KeyState MoonKeyState
+#define Music MoonMusic
+#define GetColor MoonGetColor
+#define TriangleDetection MoonTriangleDetection
+#define RunProgram MoonRunProgram
+#define TimeLoadInit MoonTimeLoadInit
+#define TimeLoad MoonTimeLoad
+#define FindEntity MoonFindEntity
+#define CreateEntityIndex MoonCreateEntityIndex
+#define CreateImage MoonCreateImage
+#define DeletImage MoonDeletImage
+#define CharToLPCWSTR MoonCharToLPCWSTR
+#define CharToWchar MoonCharToWchar
+#define WcharToChar MoonWcharToChar
+#define TextFont MoonTextFont
+#define ButtonInit MoonButtonInit
+#define ButtonDetection MoonButtonDetection
+#define ButtonSetTriggerMode MoonButtonSetTriggerMode
+#define Window MoonWindow
+#define RunWindow MoonRunWindow
+#define ProjectInit MoonProjectInit
+#define ProjectRun MoonProjectRun
+#define ProjectOver MoonProjectOver
+#define ProjectError MoonProjectError
+#define ProjectPause MoonProjectPause
+#define ProjectFunctionSwitch MoonProjectFunctionSwitch
+#define ProjectFindEntityAllNumber MoonProjectFindEntityAllNumber
+#define DrawingArea MoonDrawingArea
+#define DrawingAreaAlpha MoonDrawingAreaAlpha
+#define DrawingAreaRound MoonDrawingAreaRound
+#define Pix MoonPix
+#define Line MoonLine
+#define Box MoonBox
+#define BoxFull MoonBoxFull
+#define ImageLoad MoonImageLoad
+#define ImageLoadBatch MoonImageLoadBatch
+#define AnimeInit MoonAnimeInit
+#define AnimeRun MoonAnimeRun
+#define AnimeDelete MoonAnimeDelete
+#define AnimeCreate MoonAnimeCreate
